@@ -178,7 +178,7 @@ export default function NewsDetailsSection() {
 								</div>
 								<div className="blog-single-comment d-flex gap-4 pt-5 pb-5">
 									<div className="image">
-										<img src="assets/img/news/comment-2.png" alt="image" />
+												<img src="assets/img/news/comment-2.png" alt="user comment" />
 									</div>
 									<div className="content">
 										<div className="head d-flex flex-wrap gap-2 align-items-center justify-content-between">

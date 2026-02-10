@@ -65,7 +65,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isOffC
 									</div>
 								</div>
 								<div className="header-right d-flex justify-content-end align-items-center">
-									<a className="search-trigger search-icon" onClick={handleSearch}>
+									<a href="#!" role="button" className="search-trigger search-icon" onClick={handleSearch}>
 										<i className="fal fa-search" />
 									</a>
 									<div className="header-button">

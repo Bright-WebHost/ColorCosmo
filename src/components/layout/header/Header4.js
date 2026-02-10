@@ -71,7 +71,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isOffC
 										</Link>
 									</div>
 									<div className="search-item">
-										<a className="search-trigger search-icon" onClick={handleSearch}>
+										<a href="#!" role="button" className="search-trigger search-icon" onClick={handleSearch}>
 											<i className="fal fa-search" />
 										</a>
 										<div className="header__hamburger d-xl-block my-auto">

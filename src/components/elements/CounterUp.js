@@ -4,7 +4,7 @@ import CountUp from "react-countup"
 import ScrollTrigger from "react-scroll-trigger"
 
 export default function CounterUp({ count, time }) {
-	const [counterOn, setCounterOn] = useState(false)
+	const [, setCounterOn] = useState(false)
 	return (
 		<>
 			<ScrollTrigger
