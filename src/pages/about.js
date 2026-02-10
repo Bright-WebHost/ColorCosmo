@@ -1,12 +1,12 @@
 import Layout from "../components/layout/Layout"
-import About1 from "../components/sections/About1"
-import Achivements from "../components/sections/Achivements"
+// import About1 from "../components/sections/About1"
+// import Achivements from "../components/sections/Achivements"
 import Brand1 from "../components/sections/Brand1"
 import News1 from "../components/sections/News1"
-import News2 from "../components/sections/News2"
-import Service1 from "../components/sections/Service1"
-import Team1 from "../components/sections/Team1"
-import Testimonial1 from "../components/sections/Testimonial1"
+// import News2 from "../components/sections/News2"
+// import Service1 from "../components/sections/Service1"
+// import Team1 from "../components/sections/Team1"
+// import Testimonial1 from "../components/sections/Testimonial1"
 import Whatsapp from "../components/sections/Whatsapp"
 export default function About() {
 	return (

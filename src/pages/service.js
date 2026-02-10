@@ -1,8 +1,8 @@
 import Layout from "../components/layout/Layout"
-import Brand1 from "../components/sections/Brand1"
+// import Brand1 from "../components/sections/Brand1"
 import OurSkills from "../components/sections/OurSkills"
-import Service1 from "../components/sections/Service1"
-import Service2 from "../components/sections/Service2"
+// import Service1 from "../components/sections/Service1"
+// import Service2 from "../components/sections/Service2"
 import Service4 from "../components/sections/Service4"
 import Whatsapp from "../components/sections/Whatsapp"
 export default function Services() {
