@@ -138,8 +138,8 @@ export default function NewsList() {
 									<div className="news-thumb">
 										<img src="assets/img/news/post-3.jpg" alt="img" />
 										<div className="video-box">
-											<a
-												onClick={() => setOpen(true)}
+											<a											href="#!"
+											role="button"												onClick={() => setOpen(true)}
 												className="video-btn video-popup"
 											>
 												<i className="fas fa-play" />

@@ -56,7 +56,7 @@ export default function Gallery() {
 			<div className="gallery-item">
 				{images.slice(0, 3).map((image, index) => (
 					<div className="thumb" key={image.id}>
-						<a onClick={() => handleClick(index)} className="img-popup">
+						<a href="#!" onClick={() => handleClick(index)} role="button" className="img-popup">
 							<img src={image.url} alt={image.title} />
 							<div className="icon">
 								<i className="far fa-plus" />
@@ -68,7 +68,7 @@ export default function Gallery() {
 			<div className="gallery-item">
 				{images.slice(3, 6).map((image, index) => (
 					<div className="thumb" key={image.id}>
-						<a onClick={() => handleClick(index + 3)} className="img-popup">
+						<a href="#!" onClick={() => handleClick(index + 3)} role="button" className="img-popup">
 							<img src={image.url} alt={image.title} />
 							<div className="icon">
 								<i className="far fa-plus" />

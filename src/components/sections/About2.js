@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react'
 import ModalVideo from 'react-modal-video'
-import { Link, useLocation } from "react-router-dom"
+import { useLocation } from "react-router-dom"
 import "../../../node_modules/react-modal-video/css/modal-video.css"
 export default function About2() {
 	const [isOpen, setOpen] = useState(false)

@@ -3,11 +3,6 @@ import { useState } from 'react'
 import { Link } from "react-router-dom"
 
 export default function MobileMenu() {
-	const [isAccordion, setIsAccordion] = useState(1)
-
-	const handleAccordion = (key) => {
-		setIsAccordion(prevState => prevState === key ? null : key)
-	}
 	return <>
 		<div className="mobile-menu fix mb-3 mean-container">
 			<div className="mean-bar">

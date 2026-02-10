@@ -74,7 +74,7 @@ export default function Faq() {
 												<button
 													onClick={() => handleAccordion(1)}
 													className={
-														isAccordion == 1
+													isAccordion === 1
 															? "accordion-button"
 															: "accordion-button collapsed"
 													}
@@ -90,7 +90,7 @@ export default function Faq() {
 											<div
 												id="faq1"
 												className={
-													isAccordion == 1
+													isAccordion === 1
 														? "accordion-collapse collapse show"
 														: "accordion-collapse collapse"
 												}
@@ -113,7 +113,7 @@ export default function Faq() {
 												<button
 													onClick={() => handleAccordion(2)}
 													className={
-														isAccordion == 2
+														isAccordion === 2
 															? "accordion-button"
 															: "accordion-button collapsed"
 													}
@@ -130,7 +130,7 @@ export default function Faq() {
 											<div
 												id="faq2"
 												className={
-													isAccordion == 2
+													isAccordion === 2
 														? "accordion-collapse collapse show"
 														: "accordion-collapse collapse"
 												}
@@ -153,7 +153,7 @@ export default function Faq() {
 												<button
 													onClick={() => handleAccordion(3)}
 													className={
-														isAccordion == 3
+														isAccordion === 3
 															? "accordion-button"
 															: "accordion-button collapsed"
 													}
@@ -170,7 +170,7 @@ export default function Faq() {
 											<div
 												id="faq3"
 												className={
-													isAccordion == 3
+													isAccordion === 3
 														? "accordion-collapse collapse show"
 														: "accordion-collapse collapse"
 												}
@@ -193,7 +193,7 @@ export default function Faq() {
 												<button
 													onClick={() => handleAccordion(4)}
 													className={
-														isAccordion == 4
+														isAccordion === 4
 															? "accordion-button"
 															: "accordion-button collapsed"
 													}
@@ -210,7 +210,7 @@ export default function Faq() {
 											<div
 												id="faq4"
 												className={
-													isAccordion == 4
+													isAccordion === 4
 														? "accordion-collapse collapse show"
 														: "accordion-collapse collapse"
 												}
@@ -233,7 +233,7 @@ export default function Faq() {
 												<button
 													onClick={() => handleAccordion(5)}
 													className={
-														isAccordion == 5
+														isAccordion === 5
 															? "accordion-button"
 															: "accordion-button collapsed"
 													}
@@ -250,7 +250,7 @@ export default function Faq() {
 											<div
 												id="faq5"
 												className={
-													isAccordion == 5
+													isAccordion === 5
 														? "accordion-collapse collapse show"
 														: "accordion-collapse collapse"
 												}

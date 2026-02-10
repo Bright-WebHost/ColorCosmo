@@ -11,7 +11,6 @@ import Header3 from "./header/Header3"
 import Header4 from "./header/Header4"
 import Offcanvas from "./Offcanvas"
 import Search from "./Search"
-import Breadcrumb2 from "./header/Breadcrumb2"
 
 export default function Layout({
 	headerStyle,
@@ -67,7 +66,7 @@ export default function Layout({
 					handleSearch={handleSearch}
 				/>
 			)}
-			{headerStyle == 1 ? (
+			{headerStyle === 1 ? (
 				<Header1
 					scroll={scroll}
 					isMobileMenu={isMobileMenu}
@@ -78,7 +77,7 @@ export default function Layout({
 					handleSearch={handleSearch}
 				/>
 			) : null}
-			{headerStyle == 2 ? (
+			{headerStyle === 2 ? (
 				<Header2
 					scroll={scroll}
 					isMobileMenu={isMobileMenu}
@@ -89,7 +88,7 @@ export default function Layout({
 					handleSearch={handleSearch}
 				/>
 			) : null}
-			{headerStyle == 3 ? (
+			{headerStyle === 3 ? (
 				<Header3
 					scroll={scroll}
 					isMobileMenu={isMobileMenu}
@@ -100,7 +99,7 @@ export default function Layout({
 					handleSearch={handleSearch}
 				/>
 			) : null}
-			{headerStyle == 4 ? (
+			{headerStyle === 4 ? (
 				<Header4
 					scroll={scroll}
 					isMobileMenu={isMobileMenu}
@@ -123,8 +122,8 @@ export default function Layout({
 			</main>
 
 			{!footerStyle && <Footer1 />}
-			{footerStyle == 1 ? <Footer1 /> : null}
-			{footerStyle == 2 ? <Footer2 /> : null}
+			{footerStyle === 1 ? <Footer1 /> : null}
+			{footerStyle === 2 ? <Footer2 /> : null}
 
 			<BackToTop target="#top" />
 		</>

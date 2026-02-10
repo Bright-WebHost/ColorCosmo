@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import Gallery from "../../elements/Gallery"
 
 export default function Footer1() {
 	return (
@@ -336,7 +335,7 @@ export default function Footer1() {
 					<div className="footer-bottom">
 						<p>
 						©  {new Date().getFullYear()} Color Cosmo {" "} | Powered By
-						<a href="https://targefy.com/" target="_blank" style={{color:'#bb0000'}}> Targefy</a>
+						<a href="https://targefy.com/" target="_blank" rel="noreferrer" style={{color:'#bb0000'}}> Targefy</a>
 						</p>
 					</div>
 				</div>
